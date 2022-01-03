@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  overflow: hidden;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  top: 1vmin;
+  right: 1vmin;
+  font-size: 3vmin;
+}
+
+.start-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vmin;
+}
+
+.ground {
+  --left: 0;
+  position: absolute;
+  bottom: 0;
+  left: var(--left);
+  width: 300%;
+}
+
+.dino {
+  --bottom: 0;
+  position: absolute;
+  left: 1%;
+  bottom: 0;
+  height: 30%;
+}
+
+.cactus {
+  position: absolute;
+  bottom: 0;
+  left: var(--left);
+  height: 30%;
+}
