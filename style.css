@@ -39,24 +39,23 @@ main {
 }
 
 .ground {
-  --left: 0;
   position: absolute;
   bottom: 0;
-  left: var(--left);
+  left: 0;
   width: 300%;
 }
 
 .dino {
-  --bottom: 0;
   position: absolute;
-  left: 1%;
+  left: 3%;
   bottom: 0;
   height: 30%;
 }
 
 .cactus {
+  --left: 100;
   position: absolute;
   bottom: 0;
-  left: var(--left);
+  left: calc(var(--left) * 1%);
   height: 30%;
 }
