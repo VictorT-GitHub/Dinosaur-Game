@@ -45,7 +45,7 @@ export function getCactusZones() {
 }
 
 function createCactus() {
-  const cactus = document.createElement("img");
+  let cactus = document.createElement("img");
   cactus.src = "./images/cactus.png";
   cactus.classList.add("cactus");
   GAME.appendChild(cactus);
