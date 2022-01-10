@@ -1,6 +1,6 @@
 const groundElems = document.querySelectorAll(".ground");
 
-const GROUND_SPEED = 0.012;
+const GROUND_SPEED = 0.015;
 
 let firstGround;
 let secondGround;

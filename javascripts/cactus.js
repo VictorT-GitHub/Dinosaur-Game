@@ -1,6 +1,6 @@
 const GAME = document.querySelector(".game");
 
-const CACTUS_SPEED = 0.012;
+const CACTUS_SPEED = 0.015;
 const CACTUS_MIN_TIMEOUT = 1000;
 const CACTUS_MAX_TIMEOUT = 3500;
 
@@ -45,8 +45,8 @@ export function getCactusZones() {
 }
 
 function createCactus() {
-  let cactus = document.createElement("img");
-  cactus.src = "./images/cactus.png";
+  const cactus = document.createElement("img");
+  cactus.src = "images/cactus.png";
   cactus.classList.add("cactus");
   GAME.appendChild(cactus);
 }
