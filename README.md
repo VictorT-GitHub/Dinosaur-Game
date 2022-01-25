@@ -1,4 +1,4 @@
-#Dinosaur-Game
+# Dinosaur-Game
 
 WORK IN PROGRESS
 
